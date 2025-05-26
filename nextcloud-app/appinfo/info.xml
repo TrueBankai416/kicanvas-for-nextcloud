@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>kicanvas</id>
+	<name>Ki Canvas</name>
+	<summary>KiCanvas is an interactive, browser-based viewer for KiCAD schematics and boards. You can try it out for yourself at https://kicanvas.org.</summary>
+	<description>KiCanvas is an interactive, browser-based viewer for KiCAD schematics and boards. You can try it out for yourself at https://kicanvas.org.</description>
+	<version>1.0.0</version>
+	<licence>MIT</licence>
+	<author mail="philipp@hofmann-ebs.de" homepage="">Philipp Hofmann</author>
+	<namespace>KiCanvas</namespace>
+	<category>files</category>
+	<bugs>https://github.com/Pytonballoon810/kicanvas-for-nextcloud</bugs>
+	<dependencies>
+		<nextcloud min-version="29" max-version="29"/>
+	</dependencies>
+	<navigations>
+		<navigation>
+			<id>kicanvas</id>
+			<name>Ki Canvas</name>
+			<route>kicanvas.page.index</route>
+			<icon>app.svg</icon>
+			<type>link</type>
+		</navigation>
+	</navigations>
+</info>
