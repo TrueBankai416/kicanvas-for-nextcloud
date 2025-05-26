@@ -6,9 +6,16 @@
     "css.lint.important": "warning",
     "eslint.alwaysShowStatus": false,
     "files.exclude": {
-        "**/*.js": {
-            "when": "$(basename).ts"
-        },
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true,
+        "**/*.js": true,
         "build/": true
     },
     "cSpell.words": [
@@ -70,4 +77,5 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true,
     },
+    "hide-files.files": [],
 }
