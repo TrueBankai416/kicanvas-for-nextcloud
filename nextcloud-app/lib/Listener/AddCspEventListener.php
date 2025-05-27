@@ -1,6 +1,4 @@
 <?php
-Users\Philipp\Documents\GitHub\kicanvas-for-nextcloud\nextcloud-app\lib\Listener\AddCspEventListener.php
-<?php
 declare(strict_types=1);
 // SPDX-FileCopyrightText: WARP <development@warp.lv>
 // SPDX-License-Identifier: AGPL-3.0-or-later
