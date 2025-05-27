@@ -1,9 +1,9 @@
 {
     "openapi": "3.0.3",
     "info": {
-        "title": "kicanvas",
+        "title": "kicad_viewer",
         "version": "0.0.1",
-        "description": "KiCanvas is an interactive, browser-based viewer for KiCAD schematics and boards. You can try it out for yourself at https://kicanvas.org.",
+        "description": "Preview and edit KiCAD schematics and boards. using KiCanvas as the 'view-frontend'.",
         "license": {
             "name": "agpl"
         }
@@ -47,7 +47,7 @@
         }
     },
     "paths": {
-        "/ocs/v2.php/apps/kicanvas/api": {
+        "/ocs/v2.php/apps/kicad_viewer/api": {
             "get": {
                 "operationId": "api-index",
                 "summary": "An example API endpoint",

@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Controller;
 
-use OCA\KiCanvas\AppInfo\Application;
-use OCA\KiCanvas\Controller\ApiController;
+use OCA\kicad_viewer\AppInfo\Application;
+use OCA\kicad_viewer\Controller\ApiController;
 use OCP\IRequest;
 use PHPUnit\Framework\TestCase;
 

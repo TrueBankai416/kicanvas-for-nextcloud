@@ -1,6 +1,6 @@
 {
-	"name": "nextcloud/kicanvas",
-	"description": "KiCanvas is an interactive, browser-based viewer for KiCAD schematics and boards. You can try it out for yourself at https://kicanvas.org.",
+	"name": "nextcloud/kicad_viewer",
+	"description": "Preview and edit KiCAD schematics and boards. using KiCanvas as the 'view-frontend'.",
 	"license": "AGPL-3.0-or-later",
 	"authors": [
 		{
@@ -11,7 +11,7 @@
 	],
 	"autoload": {
 		"psr-4": {
-			"OCA\\KiCanvas\\": "lib/"
+			"OCA\\KiCAD viewer\\": "lib/"
 		}
 	},
 	"scripts": {
